@@ -1,0 +1,110 @@
+[
+    {
+        "id": 1,
+        "category": "Auto e Moto",
+        "productName": "BMW Serie 2",
+        "productDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel ipsam recusandae consequatur sunt consequuntur commodi reprehenderit iste laboriosam. Ab exercitationem illum at eius dignissimos. Possimus eveniet animi culpa? Incidunt, dicta.",
+        "productSpecs": "3000cc, 5 porte, cerchi in lega",
+        "productImage": "https://picsum.photos/500",
+        "price": 15000
+    },
+    {
+        "id": 2,
+        "category": "Informatica",
+        "productName": "Mac Book Pro",
+        "productDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel ipsam recusandae consequatur sunt consequuntur commodi reprehenderit iste laboriosam. Ab exercitationem illum at eius dignissimos. Possimus eveniet animi culpa? Incidunt, dicta.",
+        "productSpecs": "Processore M2 Max, 32gb RAM, 512GB disco",
+        "productImage": "https://picsum.photos/500",
+        "price": 1800
+    },
+    {
+        "id": 3,
+        "category": "Abbigliamento",
+        "productName": "Scarpe Nike",
+        "productDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel ipsam recusandae consequatur sunt consequuntur commodi reprehenderit iste laboriosam. Ab exercitationem illum at eius dignissimos. Possimus eveniet animi culpa? Incidunt, dicta.",
+        "productSpecs": "Air force Bianche, numero 43",
+        "productImage": "https://picsum.photos/500",
+        "price": 120
+    },
+    {
+        "id": 4,
+        "category": "Appartamenti e Case",
+        "productName": "Villa con piscina",
+        "productDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel ipsam recusandae consequatur sunt consequuntur commodi reprehenderit iste laboriosam. Ab exercitationem illum at eius dignissimos. Possimus eveniet animi culpa? Incidunt, dicta.",
+        "productSpecs": "Interno 80mq, esterno 200mq",
+        "productImage": "https://picsum.photos/500",
+        "price": 500000
+    },
+    {
+        "id": 5,
+        "category": "Auto e Moto",
+        "productName": "Audi A3",
+        "productDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel ipsam recusandae consequatur sunt consequuntur commodi reprehenderit iste laboriosam. Ab exercitationem illum at eius dignissimos. Possimus eveniet animi culpa? Incidunt, dicta.",
+        "productSpecs": "2600cc, 3 porte, cerchi in lega da 17",
+        "productImage": "https://picsum.photos/500",
+        "price": 9000
+    },
+    {
+        "id": 6,
+        "category": "Auto e Moto",
+        "productName": "Honda 300",
+        "productDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel ipsam recusandae consequatur sunt consequuntur commodi reprehenderit iste laboriosam. Ab exercitationem illum at eius dignissimos. Possimus eveniet animi culpa? Incidunt, dicta.",
+        "productSpecs": "1000cc, carenata",
+        "productImage": "https://picsum.photos/500",
+        "price": 3000
+    },
+    {
+        "id": 7,
+        "category": "Informatica",
+        "productName": "Zenbook Pro",
+        "productDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel ipsam recusandae consequatur sunt consequuntur commodi reprehenderit iste laboriosam. Ab exercitationem illum at eius dignissimos. Possimus eveniet animi culpa? Incidunt, dicta.",
+        "productSpecs": "Processore Intel i9, 64gb RAM, 1TB disco",
+        "productImage": "https://picsum.photos/500",
+        "price": 1200
+    },
+    {
+        "id": 8,
+        "category": "Informatica",
+        "productName": "Hard disk esterno WD",
+        "productDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel ipsam recusandae consequatur sunt consequuntur commodi reprehenderit iste laboriosam. Ab exercitationem illum at eius dignissimos. Possimus eveniet animi culpa? Incidunt, dicta.",
+        "productSpecs": "Passport nero, 2TB",
+        "productImage": "https://picsum.photos/500",
+        "price": 100
+    },
+    {
+        "id": 9,
+        "category": "Abbigliamento",
+        "productName": "Giacca Armani",
+        "productDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel ipsam recusandae consequatur sunt consequuntur commodi reprehenderit iste laboriosam. Ab exercitationem illum at eius dignissimos. Possimus eveniet animi culpa? Incidunt, dicta.",
+        "productSpecs": "Ecopelle, gialla",
+        "productImage": "https://picsum.photos/500",
+        "price": 120
+    },
+    {
+        "id": 10,
+        "category": "Abbigliamento",
+        "productName": "Jeans Levi's",
+        "productDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel ipsam recusandae consequatur sunt consequuntur commodi reprehenderit iste laboriosam. Ab exercitationem illum at eius dignissimos. Possimus eveniet animi culpa? Incidunt, dicta.",
+        "productSpecs": "Skin",
+        "productImage": "https://picsum.photos/500",
+        "price": 50
+    },
+    {
+        "id": 11,
+        "category": "Appartamenti e Case",
+        "productName": "Attico 180mq",
+        "productDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel ipsam recusandae consequatur sunt consequuntur commodi reprehenderit iste laboriosam. Ab exercitationem illum at eius dignissimos. Possimus eveniet animi culpa? Incidunt, dicta.",
+        "productSpecs": "Doppi servizi, 3 camere, 5 vani",
+        "productImage": "https://picsum.photos/500",
+        "price": 320000
+    },
+    {
+        "id": 12,
+        "category": "Appartamenti e Case",
+        "productName": "Appartamento in centro",
+        "productDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel ipsam recusandae consequatur sunt consequuntur commodi reprehenderit iste laboriosam. Ab exercitationem illum at eius dignissimos. Possimus eveniet animi culpa? Incidunt, dicta.",
+        "productSpecs": "120mq, 4 vani, arredato",
+        "productImage": "https://picsum.photos/500",
+        "price": 200000
+    }
+]

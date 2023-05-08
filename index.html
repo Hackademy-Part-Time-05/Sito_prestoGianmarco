@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>presto.it - Home</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200;300;400;500;600;700;800;900&family=Rubik:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="media.css">
+</head>
+
+<body>
+  <!-- NAVBAR -->
+  <nav id="mainNavbar" class="navbar navbar-expand-lg border-bottom p-0">
+    <div class="container-fluid">
+      <a class="navbar-brand fs-3 fw-bold" href="index.html"><i class="fa-solid fa-cart-shopping me-2"></i>presto.it</a>
+      <button class="navbar-toggler text-presto" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="fa-solid fa-bars"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Chi siamo</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Annunci
+            </a>
+            <ul class="dropdown-menu rounded-0 m-0">
+              <li><a class="dropdown-item" href="annunci.html">Ricerca</a></li>
+              <li><a class="dropdown-item" href="#">Ultimi</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contatti</a>
+          </li>
+          <li class="nav-item">
+            <div class="d-flex">
+              <a href="#" class="nav-link-icon-presto ms-lg-0 ms-2"><i class="fa-solid fa-magnifying-glass"></i></a>
+              <button class="btn btn-presto ms-lg-2 ms-4">Annunci salienti</button>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- MASTHEAD -->
+  <section id="masthead">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col p-0">
+          <div id="carouselPresto" class="carousel slide carousel-fade">
+            <div class="carousel-inner">
+              <div class="carousel-item active overlay">
+                <div
+                  class="position-absolute top-50 start-50 translate-middle z-1 d-flex justify-content-center flex-column align-items-center">
+                  <span class="fs-4">CREA</span>
+                  <span class="display-1 fw-bolder mb-5">Il tuo annuncio</span>
+                  <div class="d-flex justify-content-around w-100">
+                    <button class="btn btn-big-presto">Iscriviti</button>
+                    <button class="btn btn-big-white-presto">Contattaci</button>
+                  </div>
+                </div>
+                <img src="images/slide-1.jpg" class="d-block w-100" alt="Slide 1">
+              </div>
+              <div class="carousel-item overlay">
+                <div
+                  class="position-absolute top-50 start-50 translate-middle z-1 d-flex justify-content-center flex-column align-items-center">
+                  <span class="fs-4">CONTRATTA</span>
+                  <span class="display-1 fw-bolder mb-5">Il tuo prodotto</span>
+                  <div class="d-flex justify-content-around w-100">
+                    <button class="btn btn-big-presto">Iscriviti</button>
+                    <button class="btn btn-big-white-presto">Contattaci</button>
+                  </div>
+                </div>
+                <img src="images/slide-2.jpg" class="d-block w-100" alt="Slide 2">
+              </div>
+              <div class="carousel-item overlay">
+                <div
+                  class="position-absolute top-50 start-50 translate-middle z-1 d-flex justify-content-center flex-column align-items-center">
+                  <span class="fs-4">ACCETTA</span>
+                  <span class="display-1 fw-bolder mb-5">Il tuo prezzo</span>
+                  <div class="d-flex justify-content-around w-100">
+                    <button class="btn btn-big-presto">Iscriviti</button>
+                    <button class="btn btn-big-white-presto">Contattaci</button>
+                  </div>
+                </div>
+                <img src="images/slide-3.jpg" class="d-block w-100" alt="Slide 3">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselPresto" data-bs-slide="prev">
+              <i class="fa-solid fa-chevron-left display-1"></i>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselPresto" data-bs-slide="next">
+              <i class="fa-solid fa-chevron-right display-1"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- INFO -->
+  <section id="mainInfo" class="container">
+    <div class="row info-presto py-lg-0 py-5 z-2">
+      <div class="col-lg-4 col-12 px-5 py-3 bg-presto shadow-lg d-flex justify-content-center align-items-center">
+        <div class="p-3 bg-white text-presto shadow me-3">
+          <i class="fa-solid fa-bullhorn"></i>
+        </div>
+        <div class="d-flex flex-column text-white">
+          <span class="h6">Annunci inseriti</span>
+          <span class="display-5">11345</span>
+        </div>
+      </div>
+      <div class="col-lg-4 col-12 px-5 py-3 bg-white shadow-lg d-flex justify-content-center align-items-center">
+        <div class="p-3 text-white bg-presto shadow me-3">
+          <i class="fa-solid fa-check"></i>
+        </div>
+        <div class="d-flex flex-column text-presto">
+          <span class="h6">Annunci completati</span>
+          <span class="display-5 text-black">5987</span>
+        </div>
+      </div>
+      <div class="col-lg-4 col-12 px-5 py-3 bg-presto shadow-lg d-flex justify-content-center align-items-center">
+        <div class="p-3 bg-white text-presto shadow me-3">
+          <i class="fa-solid fa-users"></i>
+        </div>
+        <div class="d-flex flex-column text-white">
+          <span class="h6">I nostri clienti</span>
+          <span class="display-5">3460</span>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- <section style="height:700px; background-color: white;"></section> -->
+  <!-- CATEGORIE -->
+  <section id="categories" class="container">
+    <div class="row">
+      <!-- <div class="col-lg-3 col-md-6 col-12">
+        <div class="card card-presto border-0 d-flex justify-content-center align-items-center">
+          <div class="background"></div>
+          <span class="text-uppercase fs-3 fw-bold">Auto e moto</span>
+        </div>
+      </div> -->
+    </div>
+  </section>
+  <!-- FORM REGISTRAZIONE -->
+  <section id="signUp" class="container py-5">
+    <div class="row">
+      <div class="col-lg-7 col-12 text-alternative-presto">
+        <h3 class="text-presto">REGISTRATI</h3>
+        <h2 class="display-2 fw-semibold title-effect">VANTAGGI</h2>
+        <div class="d-flex justify-content-between py-4 pe-5">
+          <div class="d-flex pe-5 align-items-center">
+            <i class="fa-2x fa-solid fa-gauge-high me-3 text-presto"></i>
+            <span class="fs-3">Velocità</span>
+          </div>
+          <div class="d-flex pe-5 align-items-center">
+            <i class="fa-2x fa-solid fa-users me-3 text-presto"></i>
+            <span class="fs-3">Visibilità</span>
+          </div>
+        </div>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione aperiam sed ipsa totam voluptate rem et
+          dolorem corporis numquam consequatur, quaerat ducimus ex aspernatur magnam laborum dolorum cumque impedit
+          commodi.
+        </p>
+        <div class="d-flex pe-5 align-items-center mb-5">
+          <i class="square fa-2x fa-solid fa-check-double me-3 text-white"></i>
+          <span class="fs-3">Controlla i tuoi nuovi annunci</span>
+        </div>
+      </div>
+      <div class="col-lg-5 col-12 bg-presto p-4">
+        <form action="">
+          <input class="form-control input-presto my-3" type="text" placeholder="Nome">
+          <input class="form-control input-presto my-3" type="text" placeholder="Cognome">
+          <input class="form-control input-presto my-3" type="email" placeholder="Email">
+          <select class="form-select input-presto my-3" aria-label="Default select example">
+            <option selected>Sei un venditore o acquirente?</option>
+            <option value="1">Venditore</option>
+            <option value="2">Acquirente</option>
+          </select>
+          <button type="submit" class="btn btn-big-alternative-presto w-100 mt-5">Registrati</button>
+        </form>
+      </div>
+    </div>
+  </section>
+  <!-- FOOTER -->
+  <footer id="mainFooter" class="bg-alternative-presto text-white">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-md-6 col-12 bg-presto py-5">
+          <a class="navbar-brand fs-3 fw-bold d-block text-center mb-3" href="#"><i
+              class="fa-solid fa-cart-shopping me-2"></i>presto.it</a>
+          <p class="mb-3 px-3">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod corrupti impedit earum similique expedita
+            placeat hic quibusdam reiciendis praesentium ad esse, enim perspiciatis velit obcaecati sequi vitae commodi
+            fugit porro.
+          </p>
+          <form action="" class="px-3">
+            <div class="input-group mb-3">
+              <input type="email" class="form-control input-presto" placeholder="la tua email">
+              <button class="btn btn-big-alternative-presto" type="submit">Iscriviti</button>
+            </div>
+          </form>
+        </div>
+        <div class="col-lg-9 col-md-6 col-12 p-5">
+          <div class="row">
+            <div class="col-lg-4 col-12">
+              <h3 class="footer-effect">Contatti</h3>
+              <div class="d-flex flex-column">
+                <span><i class="fa-solid fa-location-dot me-2 mb-2 text-presto"></i>via Qualcosa 34</span>
+                <span><i class="fa-solid fa-envelope-open me-2 mb-2 text-presto"></i>info@presto.it</span>
+                <span><i class="fa-solid fa-phone me-2 mb-5 text-presto"></i>0805555555</span>
+                <div class="d-flex justify-content-around">
+                  <a href="#" class="social nav-link"><i class="fa-brands fa-twitter"></i></a>
+                  <a href="#" class="social nav-link"><i class="fa-brands fa-facebook-f"></i></a>
+                  <a href="#" class="social nav-link"><i class="fa-brands fa-linkedin-in"></i></a>
+                  <a href="#" class="social nav-link"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-12">
+              <h3 class="footer-effect">Link veloci</h3>
+              <ul class="nav flex-column footer-list">
+                <li class="nav-item"><a href="#" class="nav-link"><i class="icon fa-solid fa-arrow-right me-2"></i><span
+                      class="text">Home</span></a></li>
+                <li class="nav-item"><a href="#" class="nav-link"><i class="icon fa-solid fa-arrow-right me-2"></i><span
+                      class="text">Chi siamo</span></a>
+                </li>
+                <li class="nav-item"><a href="#" class="nav-link"><i class="icon fa-solid fa-arrow-right me-2"></i><span
+                      class="text">Contatti</span></a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-4 col-12">
+              <h3 class="footer-effect">Link popolari</h3>
+              <ul class="nav flex-column footer-list">
+                <li class="nav-item"><a href="#" class="nav-link"><i class="icon fa-solid fa-arrow-right me-2"></i><span
+                      class="text">Ricerca
+                      annunci</span></a></li>
+                <li class="nav-item"><a href="#" class="nav-link"><i class="icon fa-solid fa-arrow-right me-2"></i><span
+                      class="text">Annunci
+                      popolari</span></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>

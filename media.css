@@ -1,0 +1,41 @@
+/* 
+ *   Large devices
+ */
+@media (max-width: 991.98px) { 
+    
+    #mainNavbar {
+        background-color: white;
+        position: static;
+    }
+
+    .navbar .navbar-brand {
+        color: var(--primary-presto);
+    }
+
+    .navbar .nav-item {
+        padding: 0 0;
+    }
+
+    .navbar.thin .nav-item {
+        padding: 0 0;
+    }
+
+    .navbar .nav-link {
+        color: var(--text-header-contrast);
+    }
+
+    .navbar-nav .nav-link.active::after {
+        height: 0;
+    }
+
+    .navbar-nav .nav-link::before {
+        height: 0;
+    }
+
+    .info-presto {
+        transform: translate(0,0);
+        left: 0;
+        position: relative;
+    }
+
+}

@@ -1,0 +1,441 @@
+:root {
+    --primary-presto: #06A3DA;
+    --secondary-presto: #091E3E;
+    --alpha-primary-presto: rgba(9, 30, 62, .7);
+    --text-header: white;
+    --text-header-contrast: black;
+    --padding-big-button: 15px 30px;
+}
+
+* {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+#masthead {
+    color: white;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: Rubik, sans-serif;
+}
+
+.text-presto {
+    color: var(--primary-presto);
+}
+
+.bg-presto {
+    background-color: var(--primary-presto);
+}
+
+.text-alternative-presto {
+    color: var(--secondary-presto);
+}
+
+.bg-alternative-presto {
+    background-color: var(--secondary-presto);
+}
+
+.btn-presto {
+    padding: 5px 25px;
+    color: var(--text-header);
+    background-color: var(--primary-presto);
+    border-radius: 2px;
+}
+
+.btn-presto:hover {
+    background-color: var(--primary-presto);
+}
+
+.btn-alternative-presto {
+    padding: 5px 25px;
+    color: var(--text-header);
+    background-color: var(--secondary-presto);
+    border-radius: 2px;
+}
+
+.btn-alternative-presto:hover {
+    background-color: var(--secondary-presto);
+}
+
+.btn-big-alternative-presto {
+    padding: var(--padding-big-button);
+    color: var(--text-header);
+    background-color: var(--secondary-presto);
+    border-radius: 2px;
+}
+
+.btn-big-alternative-presto:hover {
+    background-color: var(--secondary-presto);
+}
+
+.input-presto {
+    padding: 5px 25px;
+    border-radius: 2px;
+}
+
+.navbar .nav-link {
+    display: block;
+    padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+    font-size: var(--bs-nav-link-font-size);
+    font-weight: var(--bs-nav-link-font-weight);
+    color: var(--text-header);
+    text-decoration: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+
+.navbar.bg-white .nav-link {
+    color: var(--text-header-contrast);
+}
+
+.navbar .nav-item .nav-link-icon-presto {
+    display: block;
+    padding: 8px 8px;
+    font-size: var(--bs-nav-link-font-size);
+    font-weight: var(--bs-nav-link-font-weight);
+    text-decoration: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+    color: var(--primary-presto);
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+    color: var(--primary-presto);
+}
+
+.navbar .nav-item {
+    position: relative;
+    padding: 30px 0;
+    transition: all linear 300ms;
+}
+
+.navbar .navbar-brand {
+    color: var(--text-header);
+}
+
+.navbar.bg-white .navbar-brand {
+    color: var(--primary-presto);
+}
+
+#mainNavbar {
+    border-color: rgb(171, 171, 171);
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+.navbar-nav .nav-link.active::before {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    display: inline-block;
+    content: '';
+    height: 2px;
+    width: 70%;
+    transform: translateX(-50%);
+    background-color: var(--primary-presto);
+}
+
+.navbar-nav .nav-link:hover {
+    color: var(--primary-presto);
+}
+
+/* .navbar-nav .nav-item:not(.dropdown) .nav-link:hover::after {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    display: inline-block;
+    content: '';
+    height: 2px;
+    width: 100%;
+    background-color: var(--primary-presto);
+} 
+
+.navbar-nav .nav-item.dropdown .nav-link:hover::before {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    display: inline-block;
+    content: '';
+    height: 2px;
+    width: 100%;
+    background-color: var(--primary-presto);
+}
+
+*/
+
+.navbar-nav .nav-link::before {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    display: inline-block;
+    content: '';
+    height: 2px;
+    width: 0;
+    background-color: var(--primary-presto);
+    transform: translateX(-50%);
+    transition: all linear 250ms;
+}
+
+.navbar-nav .nav-link:hover::before {
+    width: 70%;
+}
+
+/* .navbar-nav .nav-link.nav-link-icon-presto:hover::before {
+    width: 0;
+} */
+
+.navbar.thin .nav-item {
+    padding: 15px 0;
+}
+
+.navbar-toggler {
+    padding: 5px 10px;
+    border-color: var(--primary-presto);
+    border-radius: 2px;
+}
+
+.overlay::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: var(--alpha-primary-presto);
+}
+
+.btn-big-presto {
+    padding: var(--padding-big-button);
+    color: var(--text-header);
+    background-color: var(--primary-presto);
+    border-radius: 2px;
+}
+
+.btn-big-presto:hover {
+    color: var(--text-header-contrast);
+    background-color: var(--primary-presto);
+}
+
+.btn-big-white-presto {
+    padding: var(--padding-big-button);
+    color: var(--text-header);
+    border-radius: 2px;
+    border: 1px solid white;
+}
+
+.btn-big-white-presto:hover {
+    color: var(--text-header-contrast);
+    background-color: white;
+}
+
+.info-presto {
+    transform: translate(-50%,-50%);
+    left: 50%;
+    position: relative;
+}
+
+#mainFooter .nav .nav-link {
+    transition: transform ease-out 300ms;
+}
+
+
+#mainFooter .nav .nav-link:hover {
+    transform: translateX(10px);
+}
+
+#mainFooter .nav .nav-link .text {
+    color: var(--text-header);
+}
+
+#mainFooter .nav .nav-link .icon {
+    color: var(--primary-presto);
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    background-color: var(--primary-presto);
+}
+
+.social:hover {
+    color: var(--text-header-contrast);
+}
+
+.footer-effect {
+    position: relative;
+    padding: 20px 0;
+    margin-bottom: 20px;
+}
+
+.footer-effect::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 40%;
+    height: 3px;
+    background-color: var(--primary-presto);
+    border-radius: 2px;
+}
+
+.footer-effect::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 5px;
+    height: 3px;
+    background-color: white;
+    border-radius: 2px;
+    z-index: 1;
+    animation-name: dot-40;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+
+.title-effect {
+    position: relative;
+    padding: 20px 0;
+    margin-bottom: 20px;
+}
+
+.title-effect::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 30%;
+    height: 5px;
+    background-color: var(--primary-presto);
+    border-radius: 2px;
+}
+
+.title-effect::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 7px;
+    height: 5px;
+    background-color: white;
+    border-radius: 2px;
+    z-index: 1;
+    animation-name: dot-30;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+
+@keyframes dot-40 {
+    from {
+        left: 0;
+    }
+
+    to {
+        left: 40%;
+    }
+}
+
+@keyframes dot-30 {
+    from {
+        left: 0;
+    }
+
+    to {
+        left: 30%;
+    }
+}
+
+.square {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 60px;
+    background-color: var(--primary-presto);
+}
+
+.card-presto {
+    position: relative;
+    padding: 20px 0;
+    box-shadow: 10px 10px 26px 6px rgba(0,0,0,0.5);
+    background-color: transparent;
+    transition: box-shadow linear 150ms;
+    overflow: hidden;
+    min-height: 150px;
+}
+
+.card-presto:hover {
+    box-shadow: 5px 5px 26px 0px rgba(0,0,0,0.3);
+}
+
+.card-presto .background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200%;
+    height: 100%;
+    z-index: -1;
+    background: linear-gradient(110deg, #06A3DA 0%, #FFFFFF 50%, #091E3E 100%);
+    transition: left linear 200ms;
+}
+
+.card-presto:hover .background {
+    left: -100%;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+    color: var(--text-header);
+    text-decoration: none;
+    background-color: var(--primary-presto);
+}
+
+.card-announcement-presto {
+    max-height: 400px;
+    max-width: 400px;
+    margin: 10px 10px;
+}
+
+.card-announcement-presto .card-img-overlay {
+    background-color: var(--alpha-primary-presto);
+}
+
+.card-announcement-presto .info-text {
+    border-radius: 2px;
+    background-color: rgba(255,255,255,0.5);
+}
+
+.card-announcement-presto .info-text .caption {
+    font-size: 12px;
+}
+
+.card-announcement-presto .info-text .price {
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--secondary-presto);
+}
+
+.category-filter-presto {
+    list-style-type: none;
+}
+
+.checkbox-presto {
+    height: 24px;
+    width: 24px;
+}
+
+.checkbox-label-presto {
+    margin-top: 0.25em;
+}
+
+.checkbox-presto:checked {
+    background-color: var(--primary-presto);
+    border-color: var(--primary-presto);
+}
